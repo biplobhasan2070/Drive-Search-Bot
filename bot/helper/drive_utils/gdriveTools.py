@@ -101,7 +101,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>OWNER : @Nafisfuad1 <br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>OWNER : <a href="http://t.me/Nafisfuad1">Nafis Fuad</a> <br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
